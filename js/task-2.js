@@ -1,6 +1,6 @@
 class Storage {
-  #items = [];
-  constructor(initialItems) {
+  #items;
+  constructor(initialItems = []) {
     this.#items = initialItems;
   }
   getItems() {
